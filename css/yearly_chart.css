@@ -1,0 +1,29 @@
+﻿body {
+}
+
+.wrapper {
+position:relative;
+width: 80%;
+
+}
+
+.wrapper2 {
+position:relative;
+width: 80%;
+
+}
+
+.hide_this{
+     display: none;
+}
+
+.layer {
+position:absolute;
+top:0;
+left:0;
+}
+
+.top_show{
+
+    z-index:1;
+}

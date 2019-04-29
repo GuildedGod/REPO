@@ -1,0 +1,18 @@
+﻿body {
+}
+
+.canvasjs-chart-canvas{
+
+     position: relative;
+}
+
+#adpChart_container{
+
+     position: relative;
+}
+
+
+.dataTable tr{
+
+    /*  height:400px;*/
+}

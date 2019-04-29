@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)http://twitter.github.io/bootstrap/examples/starter-template.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Casey Foundation | Juvenile Detention Alternatives Initiative Submission System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+   <link rel="shortcut icon" href="http://twitter.github.io/bootstrap/assets/ico/favicon.png">
+                                   
+   <!-- JavaScript Code -->
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script> 
+    <script type="application/javascript" src="js/casey_include.js"></script>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="http://twitter.github.io/bootstrap/examples/starter-template.html#">Casey Foundation | Juvenile Detention Alternatives Initiative Submission System</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="adminInstructions.php">Instructions</a></li>
+              <li><a href="form0.html">Current Report</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <h1>2014 JDAI Results Submission Form</h1>
+      <p>If you need help completing this form, consult the <a href="adminInstructions.php" target="_blank">Instructions</a> page. If you have questions about definitions of any of the data requested, consult the <a href="resultsreports.php" target="_blank">Results Reports 101</a> page. <br><br></p>
+
+<center>
+<script>
+// Only show buttons that make sense on the admin page
+if (!localStorage.team_leader_name)
+{
+  document.write('<input class="btn btn-info" type="button" id="return_to_dashboard_button" value="Return to Administrative Dashboard"  onclick="location.href=\'admin2.php\'" />');
+}
+</script>
+<br><br>
+<div class="btn-group">
+  <button class="btn" onclick="location.href='form0.html'">Instructions</button>
+  <button class="btn disabled" onclick="location.href='form1.html'">Impact Results</button>
+  <button class="btn" onclick="location.href='form3.php'">Media</button>
+  <button class="btn" onclick="location.href='form7.php'">Trainings</button>
+  <button class="btn" onclick="location.href='form5.php'">Leverage</button>
+  <button class="btn" onclick="location.href='form6.php'">Reforms</button>
+  <button class="btn" onclick="location.href='form8.php'">Final Notes</button>
+</div>
+<br><br>
+<h2>Impact Results</h2>
+</center>
+
+<form class="form-horizontal" action="form3.php" enctype="application/x-www-form-urlencoded" method="post">
+  <div class="control-group">
+
+  
+  <div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span6">
+      <!--Sidebar content-->
+      
+  <div class="control-group">
+     <label class="control-label" for="site_name">Site Name</label>
+    <div class="controls">
+      <input type="text"  id="site_name" disabled>
+    </div>
+   </div>
+ 
+  
+  <div class="control-group">
+    <label class="control-label" for="team_leader_ID2">Assigned Team Leader</label>
+    <div class="controls">
+      <input type="text"  id="team_leader_ID" disabled>
+    </div>
+  </div>
+    
+  <div class="control-group">
+    <label class="control-label" for="total_detention_capacity">Total Detention Capacity</label>
+    <div class="controls">
+      <input type="text" size="5"  pattern="[0-9]*" id="total_detention_capacity">
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <label class="control-label" for="jdai_username">Person Completing the Report</label>
+    <div class="controls">
+      <input type="text" size="5"  id="jdai_username">
+    </div>
+  </div>
+ 
+ 
+    </div>
+    <div class="span6">
+      <!--Body content-->
+  
+   <div class="control-group">
+    <label class="control-label" for="baseline_">Baseline Period Start</label>
+    <div class="controls">
+      <select id="baseline_start_month" style="width:70px"></select> /
+      <select id="baseline_start_day"  style="width:50px"></select> /
+      <input class="span3" type="text" pattern="[0-9]*" id="baseline_start_year">
+    </div>
+  </div>  
+  <div class="control-group">
+    <label class="control-label" for="baseline_">Baseline Period Finish</label>
+    <div class="controls">
+      <select id="baseline_finish_month" style="width:70px"></select> /
+      <select id="baseline_finish_day"  style="width:50px"></select> /
+      <input class="span3" type="text" pattern="[0-9]*" id="baseline_finish_year">
+    </div>
+  </div> 
+  
+   <div class="control-group">
+    <label class="control-label" for="baseline_">Recent Period Start</label>
+    <div class="controls">
+      <select id="recent_start_month" style="width:70px"></select> /
+      <select id="recent_start_day"  style="width:50px"></select> /
+      <input class="span3" type="text" pattern="[0-9]*" id="recent_start_year">
+    </div>
+  </div>  
+  <div class="control-group">
+    <label class="control-label" for="baseline_">Recent Period Finish</label>
+    <div class="controls">
+      <select id="recent_finish_month" style="width:70px"></select> /
+      <select id="recent_finish_day"  style="width:50px"></select> /
+      <input class="span3" type="text" pattern="[0-9]*" id="recent_finish_year">
+    </div>
+  </div> 
+
+    </div>
+  </div>
+</div>
+  
+  <legend>Average Daily Population</legend>
+ 
+   <div class="control-group">
+
+  <div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span4">
+      <!--Sidebar content-->
+ 
+     <div class="control-group">
+    <label class="control-label" for="adp_baseline">ADP Baseline</label>
+    <div class="controls">
+      <!--<input class="span6" type="text" pattern="[0-9]*" id="adp_baseline">-->
+      <input class="span7" type="number" min="0" step="0.1" name="adp_baseline" id="adp_baseline">
+    </div>
+  </div>
+ 
+  <div class="control-group">
+    <label class="control-label" for="adp_recent">ADP Recent</label>
+    <div class="controls">
+      <!--<input class="span6" type="text" pattern="[0-9]*" id="adp_recent">-->
+      <input class="span7" type="number" min="0" step="0.1" name="adp_recent" id="adp_recent">
+    </div>
+  </div>   
+  
+  <div class="control-group">
+    <label class="control-label" for="adp_change_number"><strong>ADP Change (#)</strong></label>
+    <div class="controls">
+      <input class="span6" type="text"  id="adp_change_number" disabled>
+    </div>
+  </div>
+  
+  <div class="control-group input-append">
+    <label class="control-label" for="adp_change_percent"><strong>ADP Change (%)</strong></label>
+    <div class="controls">
+      <input class="span5" type="text" id="adp_change_percent" disabled>
+      <span class="add-on">%</span>
+    </div>
+  </div>
+ 
+ 
+    </div>
+    <div class="span4">
+      <!--Body content-->
+      
+    <div class="control-group">
+    <label class="control-label" for="annual_admission_baseline">Annual Admissions Baseline</label>
+    <div class="controls">
+      <!--<input class="span6" type="text" pattern="[0-9]*" id="annual_admission_baseline">-->
+      <input class="span7" type="number" min="0" step="0.1" name="annual_admission_baseline" id="annual_admission_baseline">
+    </div>
+  </div>
+ 
+  
+  <div class="control-group">
+    <label class="control-label" for="annual_admission_recent">Annual Admissions Recent</label>
+    <div class="controls">
+      <!--<input class="span6" type="text" pattern="[0-9]*" id="annual_admission_recent">-->
+      <input class="span7" type="number" min="0" step="0.1" name="annual_admission_recent" id="annual_admission_recent">
+    </div>
+  </div>
+    
+  
+  <div class="control-group">
+    <label class="control-label" for="annual_admissions_change_number"><strong>Admissions<br>Change (#)</strong></label>
+    <div class="controls">
+      <input class="span6" type="text" id="annual_admissions_change_number" disabled>
+    </div>
+  </div>
+  
+  <div class="control-group input-append">
+    <label class="control-label" for="annual_admissions_change_percent"><strong>Admissions<br>Change (%)</strong></label>
+    <div class="controls">
+      <input class="span5" type="text" id="annual_admissions_change_percent" disabled>
+      <span class="add-on">%</span>
+    </div>
+  </div>
+
+</div>
+    <div class="span4">
+      <!--Body content-->
+
+     <div class="control-group">
+    <label class="control-label" for="alos_baseline">ALOS Baseline (in Days)</label>
+    <div class="controls">
+      <!--<input class="span6" type="text" pattern="[0-9]*" id="alos_baseline">-->
+      <input class="span7" type="number" min="0" step="0.1" name="alos_baseline" id="alos_baseline">
+
+    </div>
+  </div>
+ 
+  
+  <div class="control-group">
+    <label class="control-label" for="alos_recent">ALOS Recent (in Days)</label>
+    <div class="controls">
+      <!--<input class="span6" type="text" pattern="[0-9]*" id="alos_recent">-->
+      <input class="span7" type="number" min="0" step="0.1" name="alos_recent" id="alos_recent">
+
+    </div>
+  </div>
+    
+  
+  <div class="control-group">
+    <label class="control-label" for="alos_change_number"><strong>ALOS Change (#)</strong></label>
+    <div class="controls">
+      <input class="span6" type="text" id="alos_change_number" disabled>
+    </div>
+  </div>
+  
+  <div class="control-group input-append">
+    <label class="control-label" for="alos_change_percent"><strong>ALOS Change (%)</strong></label>
+    <div class="controls">
+      <input class="span5" type="text" id="alos_change_percent" disabled>
+      <span class="add-on">%</span>
+    </div>
+  </div>
+
+
+    </div>
+  </div>
+</div> 
+
+<!-- Placements -->
+
+  <legend>Placements</legend>
+ 
+   <div class="control-group">
+
+  <div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span4">
+      <!--Sidebar content-->
+ 
+     <div class="control-group">
+    <label class="control-label" for="state_commitment_baseline">State Commitments Baseline</label>
+    <div class="controls">
+      <!--<input class="span6" type="text" pattern="[0-9]*" id="state_commitment_baseline">-->
+      <input class="span7" type="number" min="0" step="0.1" name="state_commitment_baseline" id="state_commitment_baseline">
+
+    </div>
+  </div>
+ 
+  
+  <div class="control-group">
+    <label class="control-label" for="state_commitment_recent">State Commitments Recent</label>
+    <div class="controls">
+      <!--<input class="span6" type="text" pattern="[0-9]*" id="state_commitment_recent">-->
+      <input class="span7" type="number" min="0" step="0.1" name="state_commitment_recent" id="state_commitment_recent">
+
+    </div>
+  </div>
+    
+  
+  <div class="control-group">
+    <label class="control-label" for="state_commitment_change_number"><strong>Commitment<br>Change (#)</strong></label>
+    <div class="controls">
+      <input class="span6" type="text" id="state_commitment_change_number" disabled>
+    </div>
+  </div>
+  
+  <div class="control-group input-append">
+    <label class="control-label" for="state_commitment_change_percent"><strong>Commitment<br>Change (%)</strong></label>
+    <div class="controls">
+      <input class="span5" type="text" id="state_commitment_change_percent" disabled>
+      <span class="add-on">%</span>
+    </div>
+  </div>
+  
+    </div>
+  </div>
+</div> 
+  
+ <!-- Public Safety -->
+  <legend>Public Safety</legend>
+   <div class="control-group">
+
+  
+  <div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span6">
+      <!--Sidebar content-->
+ 
+ <div class="control-group">
+    <label class="control-label" for="fta_indicator">FTA Indicator:</label>
+    <div class="controls">
+      <select id="fta_indicator">
+  <option>All Youth Hearings</option>
+  <option>Hearings for ATD Youth</option>
+  <option>Hearings for ATD and or Released Youth</option>
+</select><br>
+    </div>
+  </div>
+ 
+  <div class="control-group input-append">
+    <label class="control-label" for="fta_rate_baseline">FTA Rate Baseline</label>
+    <div class="controls">
+      <!--<input class="span4" type="text" pattern="[0-9]*" id="fta_rate_baseline">-->
+      <input class="span5" type="number" min="0" step="0.1" name="fta_rate_baseline" id="fta_rate_baseline">
+      <span class="add-on">%</span>
+    </div>
+  </div>
+ 
+  <div class="control-group input-append">
+    <label class="control-label" for="fta_rate_recent">FTA Rate Recent</label>
+    <div class="controls">
+      <!--<input class="span4" type="text" pattern="[0-9]*" id="fta_rate_recent">-->
+      <input class="span5" type="number" min="0" step="0.1" name="fta_rate_recent" id="fta_rate_recent">
+	<span class="add-on">%</span>
+    </div>
+  </div>
+    
+  <div class="control-group input-append">
+    <label class="control-label" for="fta_rate_change_number"><strong>FTA Rate Changes</strong></label>
+    <div class="controls">
+      <input class="span4" type="text" id="fta_rate_change_number" disabled>
+      <span class="add-on">%</span>
+    </div>
+  </div><br>
+   
+   <div class="control-group">
+    <label class="control-label" for="re_arrest_indicator">Re-Arrest Indicator</label>
+    <div class="controls">
+      <select  id="re_arrest_indicator">
+  <option>All Youth on ATDs</option>
+  <option>All Youth on ATDs and or Released</option>
+</select><br>
+    </div>
+  </div>
+   
+    <div class="control-group input-append">
+    <label class="control-label" for="re_arrest_baseline">Re-Arrest Rate Baseline</label>
+    <div class="controls">
+      <!--<input class="span4" type="text" pattern="[0-9]*" id="re_arrest_baseline">-->
+      <input class="span5" type="number" min="0" step="0.1" name="re_arrest_baseline" id="re_arrest_baseline">
+      <span class="add-on">%</span>
+    </div>
+  </div>
+ 
+  
+  <div class="control-group input-append">
+    <label class="control-label" for="re_arrest_recent">Re-Arrest Rate Recent</label>
+    <div class="controls">
+      <!--<input class="span4" type="text" pattern="[0-9]*" id="re_arrest_recent">-->
+      <input class="span5" type="number" min="0" step="0.1" name="re_arrest_recent" id="re_arrest_recent">
+	  <span class="add-on">%</span>
+    </div>
+  </div>
+    
+  
+  <div class="control-group input-append">
+    <label class="control-label" for="re_arrest_rate_change"><strong>Re-Arrest Rate<br>Change</strong></label>
+    <div class="controls">
+      <input class="span4" type="text" id="re_arrest_rate_change" disabled>
+      <span class="add-on">%</span>
+    </div>
+  </div>
+   
+    
+ 
+    </div>
+    <div class="span6">
+      <!--Body content -->
+  
+    <div class="control-group">
+    <label class="control-label" for="juvenile_crime_indicator">Juvenile Crime Indicator</label>
+    <div class="controls">
+      <select id="juvenile_crime_indicator">
+  <option>Total Felony Petitions Filed</option>
+  <option>All Delinquency Petitions Filed</option>
+  <option>Juvenile Arrests</option>
+  <option>Juvenile Referrals / Intake Cases</option>
+  <option>Other</option>
+</select><br>
+    </div>
+  </div>
+  
+   <div class="control-group">
+    <label class="control-label" for="juvenile_crime_baseline">Juvenile Crime Baseline</label>
+    <div class="controls">
+      <!--<input class="span4" type="text" pattern="[0-9]*" id="juvenile_crime_baseline">-->
+      <input class="span5" type="number" min="0" step="0.1" name="juvenile_crime_baseline" id="juvenile_crime_baseline">
+
+    </div>
+  </div>
+ 
+  
+  <div class="control-group">
+    <label class="control-label" for="juvenile_crime_recent">Juvenile Crime Recent</label>
+    <div class="controls">
+      <!--<input class="span4" type="text" pattern="[0-9]*" id="juvenile_crime_recent">-->
+      <input class="span5" type="number" min="0" step="0.1" name="juvenile_crime_recent" id="juvenile_crime_recent">
+
+    </div>
+  </div>
+    
+  
+  <div class="control-group">
+    <label class="control-label" for="juvenile_crime_change_number"><strong>Juvenile Crime Change (#)</strong></label>
+    <div class="controls">
+      <input class="span4" type="text" id="juvenile_crime_change_number" disabled>
+    </div>
+  </div>
+ 
+   <div class="control-group input-append">
+    <label class="control-label" for="juvenile_crime_change_percent"><strong>Juvenile Crime Baseline <br>Change (%)</strong></label>
+    <div class="controls">
+      <input class="span5" type="text" id="juvenile_crime_change_percent" disabled>
+      <span class="add-on">%</span>
+    </div>
+  </div>
+
+    </div>
+  </div>
+</div>
+  
+<legend>Racial/Ethnic Disproportionality</legend>
+ 
+   <div class="control-group"> 
+  <div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span4">
+      <!--Sidebar content-->
+ 
+     <div class="control-group">
+    <label class="control-label" for="yoc_in_adp_baseline">YOC in ADP Baseline</label>
+    <div class="controls">
+      <!--<input class="span6" type="text" pattern="[0-9]*" id="yoc_in_adp_baseline">-->
+      <input class="span7" type="number" min="0" step="0.1" name="yoc_in_adp_baseline" id="yoc_in_adp_baseline">
+
+    </div>
+  </div>
+ 
+  
+  <div class="control-group">
+    <label class="control-label" for="yoc_in_adp_recent">YOC in ADP Recent</label>
+    <div class="controls">
+      <!--<input class="span6" type="text" pattern="[0-9]*" id="yoc_in_adp_recent">-->
+      <input class="span7" type="number" min="0" step="0.1" name="yoc_in_adp_recent" id="yoc_in_adp_recent">
+
+    </div>
+  </div>
+    
+  
+  <div class="control-group">
+    <label class="control-label" for="yoc_in_adp_recent_change_number"><strong>YOC in ADP<br>Change (#)</strong></label>
+    <div class="controls">
+      <input class="span6" type="text" id="yoc_in_adp_recent_change_number" disabled>
+    </div>
+  </div>
+  
+  <div class="control-group input-append">
+    <label class="control-label" for="yoc_in_adp_recent_change_percent"><strong>YOC in ADP<br>Change (%)</strong></label>
+    <div class="controls">
+      <input class="span5" type="text" id="yoc_in_adp_recent_change_percent" disabled>
+      <span class="add-on">%</span>
+    </div>
+  </div>
+  
+  <!-- Extra -->
+  <div class="control-group">
+    <label class="control-label" for="yoc_state_commitments_baseline"># of YOC State Commitments Baseline</label>
+    <div class="controls">
+      <!--<input class="span6" type="text" pattern="[0-9]*" id="yoc_state_commitments_baseline">-->
+      <input class="span7" type="number" min="0" step="0.1" name="yoc_state_commitments_baseline" id="yoc_state_commitments_baseline">
+
+    </div>
+  </div>
+ 
+  
+  <div class="control-group">
+    <label class="control-label" for="yoc_state_commitments_recent"># of YOC State Commitments Recent</label>
+    <div class="controls">
+      <!--<input class="span6" type="text" pattern="[0-9]*" id="yoc_state_commitments_recent">-->
+      <input class="span7" type="number" min="0" step="0.1" name="yoc_state_commitments_recent" id="yoc_state_commitments_recent">
+
+    </div>
+  </div>
+    
+  
+  <div class="control-group">
+    <label class="control-label" for="yoc_committed_changes_number"><strong>YOC Committed<br>Change (#)</strong></label>
+    <div class="controls">
+      <input class="span6" type="text" id="yoc_committed_changes_number" disabled>
+    </div>
+  </div>
+  
+  <div class="control-group input-append">
+    <label class="control-label" for="yoc_committed_changes_percent"><strong>YOC Committed<br>Change (%)</strong></label>
+    <div class="controls">
+      <input class="span5" type="text" id="yoc_committed_changes_percent" disabled>
+      <span class="add-on">%</span>
+    </div>
+  </div>
+  
+  
+ 
+    </div>
+    <div class="span4">
+      <!--Body content-->
+      
+    <div class="control-group">
+    <label class="control-label" for="yoc_admitted_baseline"># of YOC Admitted Baseline</label>
+    <div class="controls">
+      <!--<input class="span6" type="text" pattern="[0-9]*" id="yoc_admitted_baseline">-->
+      <input class="span7" type="number" min="0" step="0.1" name="yoc_admitted_baseline" id="yoc_admitted_baseline">
+
+    </div>
+  </div>
+ 
+  
+  <div class="control-group">
+    <label class="control-label" for="yoc_admitted_recent"># of YOC Admitted Recent</label>
+    <div class="controls">
+      <!--<input class="span6" type="text" pattern="[0-9]*" id="yoc_admitted_recent">-->
+      <input class="span7" type="number" min="0" step="0.1" name="yoc_admitted_recent" id="yoc_admitted_recent">
+
+    </div>
+  </div>
+    
+  
+  <div class="control-group">
+    <label class="control-label" for="yoc_admitted_change_number"><strong>YOC Admitted<br>Change (#)</strong></label>
+    <div class="controls">
+      <input class="span6" type="text" id="yoc_admitted_change_number" disabled>
+    </div>
+  </div>
+  
+  <div class="control-group input-append">
+    <label class="control-label" for="yoc_admitted_change_percent"><strong>YOC Admitted<br>Change (%)</strong></label>
+    <div class="controls">
+      <input class="span5" type="text" id="yoc_admitted_change_percent" disabled>
+      <span class="add-on">%</span>
+    </div>
+  </div>
+
+</div>
+    <div class="span4">
+      <!--Body content-->
+
+     <div class="control-group">
+    <label class="control-label" for="alos_of_yoc_baseline">ALOS of YOC Baseline</label>
+    <div class="controls">
+      <!--<input class="span6" type="text" pattern="[0-9]*" id="alos_of_yoc_baseline">-->
+      <input class="span7" type="number" min="0" step="0.1" name="alos_of_yoc_baseline" id="alos_of_yoc_baseline">
+
+    </div>
+  </div>
+ 
+  
+  <div class="control-group">
+    <label class="control-label" for="alos_of_yoc_recent">ALOS of YOC Recent</label>
+    <div class="controls">
+      <!--<input class="span6" type="text" pattern="[0-9]*" id="alos_of_yoc_recent">-->
+      <input class="span7" type="number" min="0" step="0.1" name="alos_of_yoc_recent" id="alos_of_yoc_recent">
+
+    </div>
+  </div>
+    
+  
+  <div class="control-group">
+    <label class="control-label" for="alos_of_yoc_change_number"><strong>ALOS of YOC<br>Change (#)</strong></label>
+    <div class="controls">
+      <input class="span6" type="text" id="alos_of_yoc_change_number" disabled>
+    </div>
+  </div>
+  
+  <div class="control-group input-append">
+    <label class="control-label" for="alos_of_yoc_change_percent"><strong>ALOS of YOC<br>Change (%)</strong></label>
+    <div class="controls">
+      <input class="span5" type="text" id="alos_of_yoc_change_percent" disabled>
+      <span class="add-on">%</span>
+
+    </div>
+  </div>
+
+
+    </div>
+  </div>
+</div> 
+  
+  <center>
+  <input class="btn btn-primary" type="button" id="update_impact_results_button" value="Save Entry" />
+  <input class="btn btn-primary" type="button" id="update_impact_results_continue_button" value="Save and Continue »" /><br><br>
+  </center>
+  
+</form>
+<div id="save_status"></div>
+
+
+
+
+
+
+    <footer>
+        <center><p>© 2014 The Annie E. Casey Foundation | Privacy Statement | Terms of Use</p></center>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js">
+</script><script src="js/jquery.cookie.js"></script>
+
+  
+
+</body></html>

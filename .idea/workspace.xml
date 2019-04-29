@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b3b12cc-f939-4a0b-860b-1cc6a0150b33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../REPO/.idea/casey copy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/Carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/_notes/dwsync.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/admin1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/admin2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/admin3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/admin4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/admin5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/admin6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/admin7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/admin8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/adminForm1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/adminIndex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/adminInstructions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/adminIntructions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/adminLogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/adminTest1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/carousel2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/code.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/css/_notes/dwsync.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/css/bootstrap-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/css/canvas_edits.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/css/dynamic_chart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/css/yearly_chart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/currentLeverage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/db/_notes/dwsync.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/db/dbconnect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1_files/_notes/dwsync.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1_files/bootstrap-alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1_files/bootstrap-button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1_files/bootstrap-carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1_files/bootstrap-collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1_files/bootstrap-dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1_files/bootstrap-modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1_files/bootstrap-popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1_files/bootstrap-scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1_files/bootstrap-tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1_files/bootstrap-tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1_files/bootstrap-transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1_files/bootstrap-typeahead.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1_files/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1_old.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form1b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/form9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/img/_notes/dwsync.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/index_files/_notes/dwsync.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/index_files/bootstrap-alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/index_files/bootstrap-button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/index_files/bootstrap-carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/index_files/bootstrap-collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/index_files/bootstrap-dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/index_files/bootstrap-modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/index_files/bootstrap-popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/index_files/bootstrap-scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/index_files/bootstrap-tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/index_files/bootstrap-tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/index_files/bootstrap-transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/index_files/bootstrap-typeahead.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/index_files/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/jdaibasics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/_notes/dwsync.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/bootstrap-alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/bootstrap-button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/bootstrap-carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/bootstrap-collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/bootstrap-dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/bootstrap-modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/bootstrap-popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/bootstrap-scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/bootstrap-tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/bootstrap-tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/bootstrap-transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/bootstrap-typeahead.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/canvasjs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_admin1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_admin1_form0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_admin1_new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_admin2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_admin4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_admin8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_backup_2014_8_5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_currentLeverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_dynamic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_form0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_form1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_form1_old.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_form3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_form5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_form6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_form7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_form8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_siteLogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/casey_include_teamLeadLogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/cookie.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/grunt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/jquery-2.0.2.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/jquery.cookie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/jquery.maskMoney.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/test/_notes/dwsync.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/test/sandbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/test/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/js/test/tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/localStorageCheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/newfile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/pastreports.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/php/_notes/dwsync.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/php/code.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/php/get_all_leverage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/php/get_all_media.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/php/get_all_trainings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/php/get_leverage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/php/get_media.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/php/get_reforms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/php/get_reports.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/php/get_reports_admin1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/php/get_trainings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/php/get_users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/php/sql_queries.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/reports/_notes/dwsync.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/reports/jdai_2013_summary_report.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/resultsreports.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/siteLogin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REPO/teamLeadLogin.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" executionDataType="PHAR" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../REPO/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-196" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../REPO/siteLogin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="95" column="8" lean-forward="true" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../REPO/admin1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="102" column="25" lean-forward="true" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../REPO/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2074">
+              <caret line="122" column="52" lean-forward="true" selection-start-line="122" selection-start-column="52" selection-end-line="122" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>home</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Cerlton" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../REPO" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../REPO/siteLogin.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="busybox:latest" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="casey copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REPO" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../REPO" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../REPO/admin1.php" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b3b12cc-f939-4a0b-860b-1cc6a0150b33" name="Default Changelist" comment="" />
+      <created>1556558259416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556558259416</updated>
+      <workItem from="1556558261082" duration="1971000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1971000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Remote Host" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="DEFYNE" />
+    <option name="LAST_COMMIT_MESSAGE" value="DEFYNE" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../REPO/css/bootstrap-responsive.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../REPO/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../REPO/siteLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="95" column="8" lean-forward="true" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../REPO/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2074">
+          <caret line="122" column="52" lean-forward="true" selection-start-line="122" selection-start-column="52" selection-end-line="122" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../REPO/admin1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="102" column="25" lean-forward="true" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

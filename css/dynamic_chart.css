@@ -1,0 +1,151 @@
+﻿body {
+}
+
+a { 
+cursor: pointer; 
+cursor: hand; 
+}
+
+a:hover, a:visited, a:link, a:active
+{
+	text-decoration: none;
+}
+
+.chart_table {
+     /* border:solid;
+     border-color: black; */
+    
+      
+}
+
+.inner_table{
+     
+     /*border-color: black;
+    border:solid;*/
+    
+}
+
+#indicator_header{
+     /*background-color:orangered;*/
+}
+
+.chart_td
+{
+     border:solid;
+     border-color: black;
+     
+     
+}
+
+.inner_table_last
+{
+    
+}
+
+.orange_link:link{
+
+      color:orangered;
+
+}
+
+.orange_link:visited{
+
+      text-decoration:none;
+      color:orangered;
+}
+
+.orange_link:hover{
+
+      /*text-decoration:underline;*/
+      color:orangered;
+}
+
+
+
+#bel{
+
+    
+}
+
+
+.spaceIt{
+
+
+}
+
+#chart_container{
+     
+     
+
+     position:absolute;
+     margin: auto;
+     float:none;
+
+     border: solid;
+          
+}
+
+.wrapper {
+position:relative;
+width: 80%;
+
+}
+
+.wrapper2 {
+position:relative;
+width: 80%;
+
+}
+
+.layer {
+position:absolute;
+top:0;
+left:0;
+}
+
+#left-column{
+
+     float:left;
+     position:relative;
+     width:20%;
+}
+
+#rightColumn{
+
+    
+     
+     width: 80%;
+}
+
+
+#colmask{
+
+     width:100%;
+}
+#colleft{
+
+     width: 94%;
+}
+
+#col1_l{
+     width: 46%;
+     float: left;
+}
+
+#col1_r{
+     width: 46%;
+     float: right;
+}
+
+.display_this{
+     display: block;
+}
+
+.hide_this{
+     display: none;
+}
+
+.invis{
+
+     visibility : hidden;
+}
